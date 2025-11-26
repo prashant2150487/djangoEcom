@@ -1,0 +1,9 @@
+admin user name: test
+email:test@gmail.com
+pass:test@123
+
+
+
+source venv/bin/activate
+python manage.py runserver
+coverage run --omit='*venv/*' manage.py test 
